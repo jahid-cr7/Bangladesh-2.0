@@ -1,3 +1,6 @@
+body{
+    width: 1536px;
+}
 .navbar .nav {
   display: flex;
   align-items: center;
@@ -28,9 +31,15 @@
   margin: 0px 10px;
   padding: 15px 30px;
 }
+.navbar .nav .btn-primary:hover {
+  color: white;
+  cursor: pointer;
+  transition-duration: 2s;
+  background-image: linear-gradient(45deg, green, red);
+}
 .banner {
-  width: auto;
-  height: 600px;
+  width: 1280;
+  height: 560px;
   border-radius: 24px;
   background: rgb(198, 228, 214);
   padding: 0px 100px 100px 100px;
@@ -73,6 +82,12 @@
   background: rgb(0, 106, 80);
   padding: 17px 34px 17px 34px;
   border: none;
+}
+.banner .text .btn:hover {
+  color: white;
+  cursor: pointer;
+  transition-duration: 5s;
+  background-image: linear-gradient(90deg, green, red, green);
 }
 .banner .bg {
   width: 474.03px;
@@ -196,6 +211,12 @@
   border: none;
   padding: 11px 20px 11px 20px;
 }
+.g-box .category-1 .btn-blue:hover {
+  color: white;
+  cursor: pointer;
+  transition-duration: 5s;
+  background-image: linear-gradient(45deg, green, red);
+}
 
 /* Green-One */
 .g-box .category-2 {
@@ -243,6 +264,12 @@
   border: none;
   padding: 11px 20px 11px 20px;
 }
+.g-box .category-2 .btn-green:hover {
+  color: white;
+  cursor: pointer;
+  transition-duration: 5s;
+  background-image: linear-gradient(45deg, green, red);
+}
 
 /* Yellow-One */
 .g-box .category-3 {
@@ -289,22 +316,28 @@
   border: none;
   padding: 11px 20px 11px 20px;
 }
+.g-box .category-3 .btn-yellow:hover {
+  color: white;
+  cursor: pointer;
+  transition-duration: 5s;
+  background-image: linear-gradient(45deg, green, red);
+}
 .yunus {
   padding: 24px 160px 24px 160px;
 }
 .speech {
   box-sizing: border-box;
-  border: 1px solid rgba(14, 14, 14, 0.15);
+  border: 1px solid rgba(71, 70, 70, 0.15);
   border-radius: 16px;
 
   background: rgb(255, 255, 255);
   padding: 48px 24px;
   background-image: url(../assets/quote-bg.png);
   background-repeat: no-repeat;
-  background-position: 4% 15%;
+  background-position: 2% 16%;
 }
 .speech .speech-yunus {
-  color: rgba(14, 14, 14, 0.8);
+  color: rgba(72, 72, 72, 0.8);
   font-family: Fira Sans;
   font-size: 16px;
   font-weight: 400;
@@ -317,7 +350,7 @@
   font-family: Fira Sans;
   font-size: 20px;
   font-weight: 600;
-  line-height: 24px;
+  /* line-height: 24px; */
   letter-spacing: 0%;
   text-align: left;
 }
@@ -326,7 +359,7 @@
   font-family: Fira Sans;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
+  /* line-height: 24px; */
   letter-spacing: 0%;
   text-align: left;
 }
@@ -424,6 +457,12 @@
   padding: 13px 26px;
   margin-top: 20px;
 }
+.news-content .news-btn:hover {
+  color: white;
+  cursor: pointer;
+  transition-duration: 5s;
+  background-image: linear-gradient(45deg, green, red);
+}
 .another-news {
   padding: 24px 160px 24px 160px;
 }
@@ -482,6 +521,12 @@
   /* margin: 0px 24px 32px 24px; */
   padding: 0px 40px;
 }
+.donate-some-money .donate .quantity .amount:hover {
+  color: white;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  background-image: linear-gradient(45deg, green, red);
+}
 .quantity .amount .text-amount {
   color: rgba(14, 14, 14, 0.8);
   font-family: Fira Sans;
@@ -491,6 +536,7 @@
   letter-spacing: 0%;
   text-align: left;
 }
+
 .donate-other-amount {
   box-sizing: border-box;
   border: 1px solid rgba(14, 14, 14, 0.15);
@@ -503,29 +549,34 @@
   justify-content: center;
   padding: 20px 40px 20px 40px;
   margin: 32px 80px 32px 80px;
-}
-.donate-other-amount .placeholder {
   color: rgba(14, 14, 14, 0.3);
   font-family: Fira Sans;
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0%;
-  text-align: left;
+  text-align: center;
 }
-.donate .btn-last {
+.btn-last {
   color: rgb(255, 255, 255);
   font-family: Fira Sans;
   font-size: 18px;
   font-weight: 600;
   line-height: 22px;
   letter-spacing: 0%;
-  text-align: left;
+  text-align: center;
+  padding: 17px 34px 17px 34px;
   box-sizing: border-box;
   border: 1px solid rgba(14, 14, 14, 0.1);
   border-radius: 8px;
+
   background: rgb(0, 106, 80);
-  padding: 17px 34px;
+}
+.btn-last:hover {
+  color: white;
+  cursor: pointer;
+  transition-duration: 5s;
+  background-image: linear-gradient(45deg, green, red);
 }
 .subscribe-tab {
   padding: 24px 160px 24px 160px;
@@ -572,6 +623,8 @@
   letter-spacing: 0%;
   text-align: left;
   margin-right: 0px;
+  border-radius: 8px 0px 0px 8px;
+  border: none;
 }
 .subscribe-tab .content .subscribe-table .subscribe-btn {
   color: rgb(255, 255, 255);
@@ -584,8 +637,14 @@
   border-radius: 0px 8px 8px 0px;
   border: none;
   background: rgb(0, 106, 80);
-  padding: 18px 34px 19px 34px;
+  padding: 16px 34px 17px 34px;
   margin-left: -3.5px;
+}
+.subscribe-tab .content .subscribe-table .subscribe-btn:hover {
+  color: white;
+  cursor: pointer;
+  transition-duration: 5s;
+  background-image: linear-gradient(45deg, green, red);
 }
 .subscribe-tab .content .last-spam {
   color: rgba(14, 14, 14, 0.7);
@@ -597,5 +656,3 @@
   text-align: center;
   margin-top: 25px;
 }
-
-
