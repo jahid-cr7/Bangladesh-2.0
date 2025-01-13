@@ -330,10 +330,10 @@
   letter-spacing: 0%;
   text-align: left;
 }
-.opinion-matter {
+.news {
   padding: 24px 160px 24px 160px;
 }
-.text-format {
+.news .news-head .Recent-News {
   color: rgb(14, 14, 14);
   font-family: Fira Sans;
   font-size: 40px;
@@ -341,4 +341,189 @@
   line-height: 48px;
   letter-spacing: 0%;
   text-align: left;
+  margin: 24px 0px;
+}
+.news .news-head .news-text {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 32px 0px;
+}
+.news .news-box {
+  width: auto;
+  height: auto;
+  /* border: 1px solid black; */
+  border-radius: 24px;
+  background: rgb(255, 255, 255);
+  padding: 48px;
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  border: 1px solid rgba(128, 128, 128, 0.214);
+  border-radius: 24px;
+}
+.news-box .bg img {
+  width: 408px;
+  height: 340px;
+  border-radius: 24px;
+}
+.news .news-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.news-content .name {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 12px 0px;
+}
+.news-content .al-zazera {
+  width: 134px;
+  height: 40px;
+  margin: 12px 0px;
+}
+.news-content .date-time {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  /* line-height: 24px; */
+  letter-spacing: 0%;
+  text-align: left;
+}
+.news-content .news-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 0px;
+}
+.news-content .news-btn {
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  border-radius: 8px;
+  border: none;
+  background: rgb(0, 106, 80);
+  padding: 13px 26px;
+  margin-top: 20px;
+}
+.another-news {
+  padding: 24px 160px 24px 160px;
+}
+.another-news .another-content {
+  padding: 48px;
+  display: flex;
+  border: 1px solid rgba(128, 128, 128, 0.214);
+  border-radius: 24px;
+}
+.news-2 {
+  padding: 24px 160px 24px 160px;
+}
+.news-2 .like-1 {
+  padding: 48px;
+  display: flex;
+  border: 1px solid rgba(128, 128, 128, 0.214);
+  border-radius: 24px;
+}
+.donate-some-money {
+  padding: 24px 160px 24px 160px;
+  text-align: center;
+}
+.donate {
+  width: auto;
+  height: auto;
+}
+.donate-some-money .donate .headline {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 24px 0px;
+}
+.donate-some-money .donate .donate-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.donate-some-money .donate .quantity {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.donate-some-money .donate .quantity .amount {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  /* margin: 0px 24px 32px 24px; */
+  padding: 0px 40px;
+}
+.quantity .amount .text-amount {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.donate-other-amount {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 20px;
+  background: rgb(255, 255, 255);
+  width: 1032px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 40px 20px 40px;
+  margin: 32px 80px 32px 80px;
+}
+.donate-other-amount .placeholder {
+  color: rgba(14, 14, 14, 0.3);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.donate .btn-last {
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  border-radius: 8px;
+  background: rgb(0, 106, 80); 
+  padding: 17px 34px;
 }
