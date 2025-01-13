@@ -1,4 +1,3 @@
-
 .navbar .nav {
   display: flex;
   align-items: center;
@@ -39,9 +38,8 @@
   margin: 0px 160px 0px 160px;
   display: flex;
   justify-content: space-between;
-
 }
-.banner .text{
+.banner .text {
   width: 622px;
   height: 325px;
 }
@@ -229,7 +227,7 @@
   line-height: 24px;
   letter-spacing: 0%;
   text-align: left;
-  margin-bottom: 48px;
+  margin-bottom: 25px;
 }
 .g-box .category-2 .btn-green {
   color: rgb(255, 255, 255);
@@ -276,6 +274,7 @@
   line-height: 24px;
   letter-spacing: 0%;
   text-align: left;
+  margin-bottom: 25px;
 }
 .g-box .category-3 .btn-yellow {
   color: rgb(255, 255, 255);
@@ -286,8 +285,60 @@
   letter-spacing: 0%;
   text-align: left;
   border-radius: 8px;
-
   background: rgb(255, 194, 57);
   border: none;
   padding: 11px 20px 11px 20px;
+}
+.yunus {
+  padding: 24px 160px 24px 160px;
+}
+.speech {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+
+  background: rgb(255, 255, 255);
+  padding: 48px 24px;
+  background-image: url(../assets/quote-bg.png);
+  background-repeat: no-repeat;
+  background-position: 4% 15%;
+}
+.speech .speech-yunus {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.speech .name {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.speech .introduction {
+  color: rgba(14, 14, 14, 0.6);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.opinion-matter {
+  padding: 24px 160px 24px 160px;
+}
+.text-format {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
 }
