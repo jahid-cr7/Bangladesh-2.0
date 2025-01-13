@@ -524,6 +524,78 @@
   box-sizing: border-box;
   border: 1px solid rgba(14, 14, 14, 0.1);
   border-radius: 8px;
-  background: rgb(0, 106, 80); 
+  background: rgb(0, 106, 80);
   padding: 17px 34px;
 }
+.subscribe-tab {
+  padding: 24px 160px 24px 160px;
+}
+.subscribe-tab .content {
+  width: auto;
+  height: auto;
+}
+.subscribe-tab .content .element {
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+  padding: 100px;
+}
+.subscribe-tab .content .big-text {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.subscribe-tab .content .subscribe-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.subscribe-tab .content .subscribe-table {
+  text-align: center;
+}
+.subscribe-tab .content .subscribe-table .input-email {
+  width: 600px;
+  height: auto;
+  padding: 18px 40px;
+  color: rgba(14, 14, 14, 0.3);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-right: 0px;
+}
+.subscribe-tab .content .subscribe-table .subscribe-btn {
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  border-radius: 0px 8px 8px 0px;
+  border: none;
+  background: rgb(0, 106, 80);
+  padding: 18px 34px 19px 34px;
+  margin-left: -3.5px;
+}
+.subscribe-tab .content .last-spam {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 25px;
+}
+
+
